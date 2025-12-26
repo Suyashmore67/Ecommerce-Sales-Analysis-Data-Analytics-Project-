@@ -74,6 +74,7 @@ SELECT monthname(order_date) AS month, SUM(amount) AS revenue
 FROM ecommerce_sales
 GROUP BY month
 ORDER BY revenue DESC;
+```
 
 ## Results
 
